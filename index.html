@@ -3,34 +3,29 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jas Gill — NYC-bred Product & Solutions Leader</title>
-  <meta name="description" content="Jas Gill — NYC-bred Product Manager + Solutions Engineer. I ship platforms, tell the story, and align teams to execute." />
-  <meta name="theme-color" content="#0b0f14" />
+  <title>Jas Gill // Neural Operator</title>
+  <meta name="description" content="Y2K matrix-themed personal site for Jas Gill: product strategy, solutions engineering, and immersive case studies." />
+  <meta name="theme-color" content="#030806" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <div class="bg">
-    <div class="grain"></div>
-    <div class="glow g1"></div>
-    <div class="glow g2"></div>
-  </div>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
 
   <header class="header">
     <a class="brand" href="index.html#top" aria-label="Home">
       <span class="dot"></span>
-      <span>Jas Gill</span>
+      <span>JASGILL://LIVE</span>
     </a>
 
     <nav class="nav" aria-label="Primary">
-      <a href="projects.html">Projects</a>
-      <a href="index.html#ventures">Ventures</a>
-      <a href="index.html#work">What I do</a>
-      <a href="index.html#writing">Writing</a>
-      <a href="index.html#contact" class="pill">Contact</a>
+      <a href="projects.html">Projects.exe</a>
+      <a href="#ventures">Ventures.log</a>
+      <a href="#work">Capabilities.sys</a>
+      <a href="#contact" class="pill">Ping</a>
     </nav>
 
     <button class="menuBtn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
@@ -39,285 +34,112 @@
   <main id="top" class="main">
     <section class="hero">
       <div class="heroLeft">
-        <div class="badge">
-          <span class="spark"></span>
-          NYC-bred • Austin-based • PM × SE • ruthless clarity
-        </div>
-
+        <div class="badge"><span class="spark"></span> SYSTEM ONLINE • NYC ROOTED • AUSTIN DEPLOYED</div>
         <h1>
-          I’m a <span class="accent">NYC bred tech leader</span> who makes energy flow.
-          <span class="muted">Product strategy + solutions storytelling in one brain.</span>
+          <span class="accent">Y2K matrix operator</span> for product + solutions.
+          <span class="muted">I convert ambiguity into systems that ship, sell, and scale.</span>
         </h1>
-
-        <p class="lead">
-          I sit at the intersection of product management and solutions engineering:
-          I translate messy stakeholder needs into crisp roadmaps, then I demo, sell, and deliver what we ship.
-          If you need someone who can align executives, energize engineers, and communicate with zero fluff — that’s me.
-        </p>
+        <p class="lead" data-type="I run product strategy and technical storytelling in the same brain. Discovery, roadmap, architecture narrative, demos, stakeholder alignment, and clean execution—delivered with 90s cyberpunk energy and zero fluff."></p>
 
         <div class="ctaRow">
-          <a class="btn primary" href="projects.html">View projects</a>
-          <a class="btn" href="#contact">Work with me</a>
+          <a class="btn primary" href="projects.html">Enter Project Vault</a>
+          <a class="btn" href="#contact">Start a Build</a>
           <a class="btn ghost" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
 
         <div class="metrics">
-          <div class="metric">
-            <div class="metricNum">PM × SE</div>
-            <div class="metricLabel">strategy + demos + delivery</div>
-          </div>
-          <div class="metric">
-            <div class="metricNum">Comms</div>
-            <div class="metricLabel">exec-ready storytelling</div>
-          </div>
-          <div class="metric">
-            <div class="metricNum">Builder</div>
-            <div class="metricLabel">AI + built environment + brand</div>
-          </div>
-        </div>
-
-        <div class="quickLinks">
-          <a class="miniLink" href="projects.html">Projects →</a>
-          <span class="sep">•</span>
-          <a class="miniLink" href="#ventures">Ventures →</a>
-          <span class="sep">•</span>
-          <a class="miniLink" href="#contact">Contact →</a>
+          <div class="metric"><div class="metricNum">PM × SE</div><div class="metricLabel">strategy + demos + delivery</div></div>
+          <div class="metric"><div class="metricNum">Narrative</div><div class="metricLabel">exec and customer clarity</div></div>
+          <div class="metric"><div class="metricNum">Velocity</div><div class="metricLabel">cross-functional shipping systems</div></div>
         </div>
       </div>
 
       <div class="heroRight">
-        <div class="card big" data-tilt>
+        <article class="card big" data-tilt>
           <div class="cardTop">
-            <div class="chip">Signature move</div>
-            <div class="status">
-              <span class="pulse"></span>
-              turn ambiguity into motion
-            </div>
+            <div class="chip">mission protocol</div>
+            <div class="status"><span class="pulse"></span> ambiguity → momentum</div>
           </div>
-
           <div class="stack">
             <div class="stackItem">
-              <div class="stackTitle">Product clarity</div>
-              <div class="stackText">Roadmaps, prioritization, discovery — no theatre, just outcomes.</div>
-              <div class="stackTags">
-                <span>PRDs</span><span>Discovery</span><span>Roadmap</span>
-              </div>
+              <div class="stackTitle">01 // Decode problem space</div>
+              <div class="stackText">Turn fragmented asks into a sharp product thesis and a credible roadmap.</div>
             </div>
             <div class="stackItem">
-              <div class="stackTitle">Solutions storytelling</div>
-              <div class="stackText">Demos that land. Architecture that makes sense. Objections handled clean.</div>
-              <div class="stackTags">
-                <span>Demos</span><span>APIs</span><span>Value narrative</span>
-              </div>
+              <div class="stackTitle">02 // Engineer confidence</div>
+              <div class="stackText">Demo complex systems simply so buyers, execs, and teams align faster.</div>
             </div>
             <div class="stackItem">
-              <div class="stackTitle">Execution systems</div>
-              <div class="stackText">Bring teams together, unblock work, and ship with momentum.</div>
-              <div class="stackTags">
-                <span>Delivery</span><span>Cross-functional</span><span>Ops</span>
-              </div>
+              <div class="stackTitle">03 // Launch + iterate</div>
+              <div class="stackText">Create execution rituals that keep teams shipping at high signal.</div>
             </div>
           </div>
-
-          <div class="cardBottom">
-            <a class="miniLink" href="projects.html">See the receipts →</a>
-            <div class="sig">JG</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="sectionHead">
-        <h2>Featured projects</h2>
-        <p>Short list. High signal. The full set lives on the Projects page.</p>
-      </div>
-
-      <div class="grid">
-        <article class="card" data-reveal>
-          <h3>AI Barricade Detection (Austin DOT demo)</h3>
-          <p>Futuristic, simple visual demo of AI detecting roadway barricades — built to sell the vision fast.</p>
-          <div class="tags"><span>Computer vision</span><span>Public sector</span><span>Demo</span></div>
-          <div class="cardActions">
-            <a class="btn small" href="projects.html#ai-barricade">Open</a>
-            <a class="btn small ghost" href="#contact">Partner</a>
-          </div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Institutional Intelligence Layer (RAG)</h3>
-          <p>RAG + intelligent search positioning for engineering/architecture firms: “answers in minutes.”</p>
-          <div class="tags"><span>RAG</span><span>Search</span><span>Knowledge</span></div>
-          <div class="cardActions">
-            <a class="btn small" href="projects.html#rag-intel">Open</a>
-            <a class="btn small ghost" href="#contact">Talk</a>
-          </div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Luxury brand system (Surya Botanicals)</h3>
-          <p>Label + cards + premium visual language with spiritual warmth — designed for modern US DTC.</p>
-          <div class="tags"><span>Brand</span><span>Packaging</span><span>DTC</span></div>
-          <div class="cardActions">
-            <a class="btn small" href="projects.html#surya-brand">Open</a>
-            <a class="btn small ghost" href="#contact">Collaborate</a>
-          </div>
+          <div class="cardBottom"><a class="miniLink" href="projects.html">open case files →</a><div class="sig">JG</div></div>
         </article>
       </div>
     </section>
 
     <section id="ventures" class="section">
       <div class="sectionHead">
-        <h2>Ventures</h2>
-        <p>Multiple lanes. One theme: elevate the real world with taste and execution.</p>
+        <h2>Ventures.log</h2>
+        <p>Multiple worlds, one pattern: elevate real-world systems with taste and execution.</p>
       </div>
-
       <div class="grid">
-        <article class="card" data-reveal>
-          <h3>Ethereal Dimension</h3>
-          <p>AI for the built environment: intelligent search, RAG, and modern knowledge layers for eng/arch teams.</p>
-          <div class="tags"><span>RAG</span><span>Search</span><span>IoT</span><span>Digital twins</span></div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Surya Botanicals</h3>
-          <p>Luxury Ayurvedic-inspired hair ritual — premium, modern, real.</p>
-          <div class="tags"><span>DTC</span><span>Brand</span><span>Retail</span></div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Gestalt / Ethereal Gardens</h3>
-          <p>Zen-inspired landscaping with elevated design language and fast turnaround concepts.</p>
-          <div class="tags"><span>Design</span><span>Residential</span><span>Zen</span></div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>7 Train / Night Market</h3>
-          <p>IRL culture: DJs, night market experiences, and community-forward events with a futuristic edge.</p>
-          <div class="tags"><span>Events</span><span>Community</span><span>Design</span></div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>AUREA</h3>
-          <p>Functional water: electrolytes + creatine with a divine, lightly feminine brand direction.</p>
-          <div class="tags"><span>CPG</span><span>Retail</span><span>Brand</span></div>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Consulting</h3>
-          <p>Product clarity, presales storytelling, and execution systems that actually ship.</p>
-          <div class="tags"><span>Product</span><span>Presales</span><span>Ops</span></div>
-        </article>
+        <article class="card" data-reveal><h3>Ethereal Dimension</h3><p>AI for built environment intelligence: RAG, search, and institutional memory layers.</p></article>
+        <article class="card" data-reveal><h3>Surya Botanicals</h3><p>Luxury Ayurvedic-inspired ritual brand with premium packaging and modern story architecture.</p></article>
+        <article class="card" data-reveal><h3>Gestalt / Ethereal Gardens</h3><p>Zen-forward design business blending visual language, speed, and calm experiences.</p></article>
       </div>
     </section>
 
     <section id="work" class="section">
       <div class="sectionHead">
-        <h2>What I do</h2>
-        <p>My edge is communication: crisp narrative + technical depth + execution.</p>
+        <h2>Capabilities.sys</h2>
       </div>
-
       <div class="split">
-        <div class="card" data-reveal>
-          <h3>Product Manager mode</h3>
+        <article class="card" data-reveal>
+          <h3>Product operating system</h3>
           <ul class="bullets">
-            <li>Discovery, customer interviews, and ruthless prioritization.</li>
-            <li>Write PRDs people actually read. Define measurable outcomes.</li>
-            <li>Align sales, product, and engineering — then ship.</li>
+            <li>Discovery workflows and roadmap shaping.</li>
+            <li>Prioritization logic that stakeholders can trust.</li>
+            <li>Delivery rhythm with clear ownership lanes.</li>
           </ul>
-          <div class="callout">
-            <strong>What teams say:</strong> “Jas gets to the root problem fast and keeps everyone aligned.”
-          </div>
-        </div>
-
-        <div class="card" data-reveal>
-          <h3>Solutions Engineer mode</h3>
+        </article>
+        <article class="card" data-reveal>
+          <h3>Solutions engineering narrative</h3>
           <ul class="bullets">
-            <li>Lead demos and technical discovery that earns trust.</li>
-            <li>Translate features into value narratives executives buy.</li>
-            <li>Architect the path: integrations, APIs, data, security.</li>
+            <li>Demo architecture for technical + non-technical audiences.</li>
+            <li>Value storytelling mapped to buyer objections.</li>
+            <li>Executable system concepts, not vaporware decks.</li>
           </ul>
-          <div class="callout">
-            <strong>Signature:</strong> demo like a closer, deliver like an operator.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="writing" class="section">
-      <div class="sectionHead">
-        <h2>Writing</h2>
-        <p>Short notes on AI, the built environment, brand, and operating.</p>
-      </div>
-
-      <div class="grid">
-        <article class="card" data-reveal>
-          <h3>Built Environment × AI (not dystopian!)</h3>
-          <p>How we use AI to speed up housing, public works, and human utility — not just data centers.</p>
-          <a class="miniLink" href="#" aria-label="https://substack.com/@jasgill718">Add your Substack link →</a>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Intelligent Search is the wedge</h3>
-          <p>Why “search” is the underrated path to modernizing slow-moving orgs.</p>
-          <a class="miniLink" href="#" aria-label="Add LinkedIn article link">Search my linkedin if you must →</a>
-        </article>
-
-        <article class="card" data-reveal>
-          <h3>Ritual as product</h3>
-          <p>Wellness brands win when the ritual is as strong as the ingredients.</p>
-          <a class="miniLink" href="#" aria-label="https://suryabotanicals.com">Personal CPG brand →</a>
         </article>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <div class="sectionHead">
-        <h2>Contact</h2>
-    
-      </div>
-
-      <div class="contactCard card" data-reveal>
+      <div class="card contactCard" data-reveal>
         <div>
-          <div class="contactRow">
-            <div class="contactLabel">Email</div>
-            <a class="contactValue" href="mailto:jas@example.com">jdev302@gmail.com</a>
-          </div>
-          <div class="contactRow">
-            <div class="contactLabel">LinkedIn</div>
-            <a class="contactValue" href="https://www.linkedin.com" target="_blank" rel="noreferrer">https://www.linkedin.com/in/iamjasgill/</a>
-          </div>
-          <div class="contactRow">
-            <div class="contactLabel">Location</div>
-            <div class="contactValue">Austin, Texas</div>
-          </div>
+          <h3>Open a channel</h3>
+          <div class="contactRow"><div class="contactLabel">Email</div><a class="contactValue" href="mailto:you@example.com">you@example.com</a></div>
+          <div class="contactRow"><div class="contactLabel">Location</div><div class="contactValue">Austin, TX / NYC energy</div></div>
         </div>
-
         <div class="contactActions">
-          <a class="btn primary" href="mailto:jas@example.com?subject=Project%20inquiry">Email me</a>
-          <a class="btn" href="projects.html">Projects</a>
+          <a class="btn primary" href="mailto:you@example.com">Start a project</a>
+          <a class="btn" href="projects.html">Browse case files</a>
         </div>
       </div>
 
       <footer class="footer">
         <div>© <span id="year"></span> Jas Gill</div>
-        <div class="footerRight">
-          <a href="projects.html">Projects</a>
-          <span class="sep">•</span>
-          <a href="#ventures">Ventures</a>
-          <span class="sep">•</span>
-          <a href="#top">Top</a>
-        </div>
+        <div class="footerRight"><a href="#top">Top</a></div>
       </footer>
     </section>
   </main>
 
   <div class="mobileNav" id="mobileNav" aria-hidden="true">
-    <a href="projects.html">Projects</a>
-    <a href="index.html#ventures">Ventures</a>
-    <a href="index.html#work">What I do</a>
-    <a href="index.html#writing">Writing</a>
-    <a href="index.html#contact">Contact</a>
+    <a href="projects.html">Projects.exe</a>
+    <a href="#ventures">Ventures.log</a>
+    <a href="#work">Capabilities.sys</a>
+    <a href="#contact">Ping</a>
   </div>
 
   <script src="script.js"></script>
